@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link Pembelian</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1e1e2f, #2a2a4f);
+    }
+
+    .card {
+      background: #ffffff;
+      width: 90%;
+      max-width: 350px;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: block;
+      text-decoration: none;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .wa { background: #25D366; }
+    .shopee { background: #ff5722; }
+    .tokopedia { background: #00aa5b; }
+
+    .btn:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>Produk Saya</h1>
+    <p>Klik tombol di bawah untuk melakukan pembelian</p>
+
+    <a href="https://wa.me/6281234567890" class="btn wa" target="_blank">Beli via WhatsApp</a>
+    <a href="https://shopee.co.id/" class="btn shopee" target="_blank">Beli via Shopee</a>
+    <a href="https://tokopedia.com/" class="btn tokopedia" target="_blank">Beli via Tokopedia</a>
+  </div>
+
+</body>
+</html>
